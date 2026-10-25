@@ -1,0 +1,48 @@
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Raw and downloaded datasets
+data/raw/
+data/processed/
+dataset/
+datasets/
+*.zip
+*.parquet
+
+# Trained models and checkpoints
+models/
+*.joblib
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# Secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Cache and notebook checkpoints
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
